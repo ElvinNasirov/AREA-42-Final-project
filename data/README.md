@@ -48,3 +48,17 @@ boots, gloves, goggles, helmet, no-boots, no-gloves, no-goggles, no-helmet, no-v
 
 > Download datasets manually into this folder. Do not add them to version
 > control, and do not commit any private API keys or download tokens.
+
+# Data Directory
+
+This directory is intended for local datasets, evaluation data, and demo videos. 
+
+**Important:** According to the project's Asset Policy and MVP Strategy (Decision 13), no raw datasets, videos, model weights, or other large assets are committed to this Git repository. All data files are added to the `.gitignore`.
+
+## External Storage
+
+The test videos, are securely stored outside of Git in our external Google Drive folder.
+
+* **Drive Folder Name:** `data-AREA42`
+* **Link:** https://drive.google.com/drive/folders/1YeeXtYlo_2bvwRsKH2jY77faotBf1hdV?usp=sharing
+
