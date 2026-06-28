@@ -62,3 +62,17 @@ The test videos, are securely stored outside of Git in our external Google Drive
 * **Drive Folder Name:** `data-AREA42`
 * **Link:** https://drive.google.com/drive/folders/1YeeXtYlo_2bvwRsKH2jY77faotBf1hdV?usp=sharing
 
+**Evaluation Dataset:**
+ Created a diverse, manually annotated PPE video evaluation set with ground-truth JSON files to test our pipeline against real-world scenarios (including compliance, violations, and occlusions). These assets are securely stored on Google Drive outside of the repository.
+ 
+**Real-world scenarios:**
+1. One worker wears a hard hat during the entire video.
+2. One worker is without a hard hat during the entire video.
+3. Worker starts with a hard hat, removes it, and later wears it again.
+4. Worker enters without a hard hat and puts it on after several seconds.
+5. Worker removes the hard hat and does not wear it again before the video ends.
+6. Two workers: one compliant and one without a hard hat.
+7. A hard hat is held in the hands but is not worn.
+8. Hands or another object temporarily block the worker's head.
+9. Worker leaves the frame while the violation is active.
+10. Difficult conditions: distant camera, blur, low light, partial body visibility, unusual angle, or short transitions.
